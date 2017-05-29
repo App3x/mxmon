@@ -1,0 +1,17 @@
+{
+  "name": "mx-tracker",
+  "version": "0.0.1",
+  "description": "gps tracker",
+  "main": "server.js",
+  "scripts": {
+    "open": "open ./index.html",
+    "start": "node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^1.0.2",
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8"
+  }
+}
